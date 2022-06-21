@@ -10,12 +10,44 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Order summary card</title>
   </head>
   <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and
-    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-    Proceed to Payment Cancel Order
+    <div class="card">
+      <div class="image">
+        <img src="images/illustration-hero.svg" alt="" />
+      </div>
+      <div class="second-half">
+        <div class="text">
+          <h1 class="bold-color">Order Summary</h1>
+          <p class="p-color">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="annual-plan">
+          <div class="left-part">
+            <div class="logo">
+              <img src="images/icon-music.svg" alt="" />
+            </div>
+            <div class="logo-text">
+              <p class="bold-color" id="ap">Annual Plan</p>
+              <p class="p-color" id="price">$59.99/year</p>
+            </div>
+          </div>
+          <div class="right-part">
+            <button type="button" id="change">Change</button>
+          </div>
+        </div>
+        <div class="payment-buttons">
+          <button type="button" id="proceed">Proceed to Payment</button>
+          <button type="button" id="cancel" class="p-color">
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
