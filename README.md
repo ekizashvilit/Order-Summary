@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ekizashvilit.github.io/Order-Summary/)
+- Live Site URL: [Order summary card](https://ekizashvilit.github.io/Order-Summary/)
 
 ## My process
 
